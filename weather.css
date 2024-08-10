@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+h1 {
+    font-size: 12vh;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 3px 8px gray;
+    transition: all 0.3s linear;
+    transition-timing-function: ease-in;
+    opacity: 0.9;
+}
+
+body {
+    background-image: url(img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background-color:#ff9b83 ;
+    height: 150px;
+    border-radius: 15px;
+}
+
+#cityinput {
+    background-color: rgb(250, 250, 233);
+}
+
+.inputs input[type = "text"] {
+    height: 4rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 4px;
+    box-shadow: 0 0 8px rgba(83, 82, 82, 0.9);
+    transition: all 0.3s linear;
+    transition-timing-function: ease-in;
+}
+
+.inputs input[type = "submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #259ed9;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(83, 82, 82, 0.9);
+    transition: all 0.3s linear;
+    transition-timing-function: ease-in;
+}
+
+.inputs input[type = "submit"]:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    opacity: 1;
+    transform: scale(1.1);
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    text-decoration: underline;
+    color: black;
+}
+
+.display {
+    text-align: center;
+    width: 520px;
+    color: #16a864;
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background-color: rgb(172, 189, 221);
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-shadow: 1px 3px 8px gray;
+    transition: all 0.3s linear;
+    transition-timing-function: ease-in;
+    opacity: 0.9;
+}
+
+.wrapper h2 {
+    /* padding: 5px 0; */
+    text-align: center;
+    background: #f3cd74;
+    color: #46aa52;
+    height: 15%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+    text-align: center;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.wrapper p span {
+    color: #5e0df4;
+    font-size: 25px;
+}
